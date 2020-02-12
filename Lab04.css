@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+input {
+    border-radius: 5px;
+    border: 1px solid #cdcdcd;
+}
+
+#title {
+    font-size: 30px;
+    margin: 10px;
+}
+
+#container {
+    width: 35%;
+    margin: 0 auto;
+}
+
+#container-search {
+    border: 1px solid #cdcdcd;
+    font-size: 20pt;
+    padding: 5%;
+}
+
+#container-search-input {
+    width: 60%;
+    margin-top: 5%;
+    padding: 1%;   
+}
+
+.artistProfile {
+    border: 1px solid #cdcdcd;
+    padding: 3% 4% 3% 4%;
+    display: flex;
+}
+
+.artistAbout {
+    font-size: 11pt;
+}
+
+.artistInfo {
+    padding-left: 3%;
+    width: 75%;
+    padding-top: 2.5%;
+}
+
+.artistProfile:hover {
+    background-color: #f5f5f5;
+}
+
+#artistList {
+    font-size: 15pt;
+    margin-right: 8%;
+    margin-left: 8%;
+}
+
+#artistForm {
+    text-align: center;
+}
+
+.artistFormInput {
+    text-align: center;
+    width: 65%;
+    padding: 1%;
+}
+
+.button {
+    border: none;
+}
+
+
+.btn_Form {
+    background-color: #DDDDDD;
+    padding: 2%;
+    margin-left: 1%;
+}
+
+#btn_createNewArtist {
+    width: 40%;
+}
+
+.btn_delete {
+    background-color: #DD143C;
+    color: #FFFFFF;
+    height: 100%;
+    padding: 3%;
+    margin-top: 5%;
+    border-radius: 5px;
+}
